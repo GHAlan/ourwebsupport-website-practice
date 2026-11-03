@@ -5,11 +5,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>OurWebSupport | Website Practice</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      color: #1f2937;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 24px;
+      text-align: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: clamp(32px, 5vw, 56px);
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #166534;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #14532d;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Welcome to OurWebSupport</h1>
-  <p>My first website project using GitHub.</p>
-  <p>I'm learning how AI can help me build websites.</p>
-  <button type="button">Contact Us</button>
+  <header>
+    <strong>OurWebSupport</strong>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Websites That Work for Your Business</h1>
+
+      <p>
+        Professional WordPress websites, SEO
+        and ongoing website support for
+        small businesses.
+      </p>
+
+      <a class="button" href="mailto:hello@example.com">
+        Get in Touch
+      </a>
+    </section>
+  </main>
 </body>
 </html>
